@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/IO-35_DB_gr4/sw.js', { scope: '/IO-35_DB_gr4/' })})}
